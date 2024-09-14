@@ -10,7 +10,7 @@ public class Ejercicio2_4 : MonoBehaviour
     void Start()
     {
         vidas = vidas + 77;
-        Debug.Log("Incremento "+ vidas);
+        Debug.Log("Incremento " + vidas);
         vidas = vidas - 3;
         Debug.Log("Decrecion "+ vidas);
         vidas = vidas * 4;
