@@ -146,6 +146,8 @@ GameObject:
   - component: {fileID: 447124712}
   - component: {fileID: 447124713}
   - component: {fileID: 447124714}
+  - component: {fileID: 447124715}
+  - component: {fileID: 447124716}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -351,13 +353,41 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447124698}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e878275d179d744cbc436bd8c5efc4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   baseTri: 6
   alturaTri: 9
+--- !u!114 &447124715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447124698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2df0f2ce9ceb84ca34775bdf97097a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &447124716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447124698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83c8442207e84d442ab2f8088b3b3660, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: 'Jonas '
+  apellido1: 'Gonzalez '
+  apellido2: 'Moreno '
+  edad: 23
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

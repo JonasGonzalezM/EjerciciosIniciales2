@@ -21,7 +21,7 @@ public class Ejercicio2_8 : MonoBehaviour
        // Debug.Log("Ahora tienes en el turno 4 " + turno4);
        // float turno5 = totalInicial- (turno4 * 15/100); 
        // Debug.Log("Ahora tienes en el turno 5 " + turno5);
-        float vidaActual = vidaActual - 120*3/100;
+        // Prueba a meter este de aqui float vidaActual = vidaActual - 120*3/100;
         
     }
 
