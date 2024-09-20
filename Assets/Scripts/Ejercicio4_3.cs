@@ -12,14 +12,14 @@ public class Ejercicio4_3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        string convertirDolar = " ahora tienes "+ConvertirDolar( dolar,  euro,  moneda);
         
     }
 
      string ConvertirDolar(int dolar,int euro, string moneda)
     {
-        string conversionDolar = ;
-
+        float conversionDolar = euro * 0.631f;
+        
     }
     
 }
