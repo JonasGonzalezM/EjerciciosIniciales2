@@ -12,11 +12,11 @@ public class Ejercicio4_3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string moneda = Convertir( dolar, euro, moneda);
+        string moneda = Convertir( dolar, euro);
         Debug.Log(moneda);
     }
 
-     string Convertir(int dolar,int euro, string moneda)
+     string Convertir(int dolar,int euro)
     {
         string conversion ="Tienes"+ (dolar * 0.631f) + (euro * 0.631f);
         moneda = conversion;
