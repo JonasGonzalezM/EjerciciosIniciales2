@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ejercicio7_1 : MonoBehaviour
+public class Ejercicio7_3 : MonoBehaviour
 {
-    [SerializeField] private int contador = 0;
-
+    [SerializeField] private int contador = 101;
+    //[SerializeField] private bool activo = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,9 +15,9 @@ public class Ejercicio7_1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        while (contador < 100)
+        while(contador > 0)
         {
-            contador++;
+            contador--;
             Debug.Log(contador);
 
         }
