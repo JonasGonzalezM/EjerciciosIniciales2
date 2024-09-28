@@ -8,12 +8,22 @@ public class Ejercicio7_9 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int contador = 0; contador < 30;contador++)
+        //for (int contador = 0; contador < 30; contador++)
+        //{
+        //    if (contador % 3 == 0)
+        //    {
+
+        //        Debug.Log(contador);
+        //    }
+        //}
+
+        while (contador <= 40)
         {
-            if (contador % 3 == 0)
+            if (contador%3 == 0)
             {
-                contador++;
+                Debug.Log(contador);
             }
+            contador++;
         }
         
     }
