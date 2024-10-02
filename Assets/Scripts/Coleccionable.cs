@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Coleccionable : MonoBehaviour
 {
+    [SerializeField] private int velocidad = 90;
+    [SerializeField] Vector3 velocidadVector = new Vector3(0,1,0);
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,7 @@ public class Coleccionable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(new Vector3(0,3,0)*6*Time.deltaTime);
+        transform.Rotate(velocidadVector * velocidad *Time.deltaTime,Space.World);
+        //Las variabes 
     }
 }

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MovimietoPlataforma : MonoBehaviour
 {
+    [SerializeField] private float timer;
+    [SerializeField] private int velocidad=3;
+    [SerializeField] Vector3 velocidadVector = new Vector3(1,0,0);
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +18,19 @@ public class MovimietoPlataforma : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(1, 1, 0) * 5 * Time.deltaTime);
+        timer += Time.deltaTime;
+        
+        if (timer <= 5)
+        {
+         transform.Translate(velocidadVector * velocidad * Time.deltaTime);
+
+        }
+        
+        if (timer >= 5)
+        {
+         transform.Translate(velocidadVector * -velocidad * Time.deltaTime);
+
+        }
         
     }
 }
